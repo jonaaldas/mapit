@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Noticia+Text:400i" rel="stylesheet"> 
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC9ht6pLRnBdC102Q9sBhTzk5KCZhWJQ6g&callback=initMap " async defer></script>
+  <title>Document</title>
+</head>
+<body>
+  <!-- section-a -->
+
+  <div class="section-a">
+    <h1 class="logo">Map<span>It</span></h1>
+      <ul class="nav-bar">
+        <li class="home">Home</li>
+        <li class="about">About</li>
+      </ul>
+  </div>
+
+  <div id="map"></div>
+  <div class="output"></div>
+
+  <div class="section-c">
+    <div class="bt-int">
+      <input type="text" id="city"> <br> <br>
+      <button>Click me</button> 
+      <button id="connect">Conect Polylines</button>
+    </div>
+  
+    <div id="cities"></div>
+  
+    <div id="city-text"></div>
+  </div>
+  
+  <footer class="section-d">
+    <p>Created By AldasMediaCO</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
