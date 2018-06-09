@@ -1,0 +1,110 @@
+/* Optional: Makes the sample page fill the window. */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Noticia Text', serif;
+}
+
+/* Always set the map height explicitly to define the size of the div
+* element that contains the map. */
+
+.section-a{
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+
+  background-color: rgb(36, 79, 147);
+  border-bottom: 2px solid red;
+}
+.logo{
+  color: white;
+  padding-left: 60px;
+}
+.nav-bar{
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  align-self: center;
+  color: white;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+#map {
+  margin: 30px;
+  height: 60%;
+  background-color: red;
+}
+
+input{
+  font-size: 40px;
+  font-family : inherit;
+}
+
+button{
+  font-size: 30px;
+  font-family : inherit;
+  
+  background-color: Transparent;
+    background-repeat:no-repeat;
+    border: 2px solid rgb(36, 79, 147);
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
+
+
+/* section-c */
+
+.section-c{
+  display: grid;
+  grid-template-columns:repeat(auto-fit, minmax(600px, 300px));
+  height: 300px;
+  padding-bottom: 20px;
+  
+}
+
+
+
+#cities{
+
+  width: 80%;
+  overflow: auto; 
+  font-size: 22px;
+  padding-left: 20px;
+  
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(100px, 200px));
+  grid-template-rows: repeat(auto-fill, 60px);
+}
+
+#city-text{
+
+  width: 80%;
+  overflow: auto; 
+  
+  padding-left: 30px;
+  font-size: 20px;
+}
+
+.span-x{
+  padding-top: 20px;
+  cursor: pointer;
+  justify-self: end;
+}
+
+.bt-int{
+  padding-left: 20px;
+}
+
+/* section-d */
+
+.section-d{
+  background-color: rgb(36, 79, 147);
+  border-top: 2px solid red;
+  text-align: center;
+  height: 75px;
+  color: white;
+  font-size: 20px;
+}
+
+
